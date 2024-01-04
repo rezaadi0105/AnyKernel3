@@ -113,11 +113,11 @@ else
 fi
 
 if $NEW; then
-    cd dtbo/clo
-    mv dtbo.img ../../dtbo.img
+    cd dtbs/clo
+    mv dtb.img ../../dtb.img
 else
-    cd dtbo/kdr
-    mv dtbo.img ../../dtbo.img
+    cd dtbs/kdr
+    mv dtb.img ../../dtb.img
 fi
 
 # boot install
